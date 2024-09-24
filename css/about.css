@@ -12,27 +12,28 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Smaller Navigation styles for About and Projects pages */
 nav {
     background-color: #333;
     color: white;
-    padding: 0.5rem; /* Smaller padding for the nav */
+    padding: 0.5rem 2rem; /* Reduce vertical padding */
+    display: flex;
+    justify-content: center; /* Center the nav items */
 }
 
 nav ul {
     list-style-type: none; /* Remove default list styling */
     padding: 0;
-    display: flex; /* Horizontal layout for larger screens */
-    justify-content: space-around; /* Even spacing between items */
+    display: flex; /* Horizontal layout */
 }
 
 nav ul li {
-    margin: 0 0.5rem; /* Smaller space between items */
+    margin: 0 1.5rem; /* Space between items */
 }
 
 nav ul li a {
     color: white;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
+    font-size: 1rem; /* Adjust font size */
 }
 
 nav ul li a:hover {
@@ -62,6 +63,6 @@ nav ul li a:hover {
     }
 
     nav {
-        padding: 0.5rem; /* Maintain smaller padding for mobile nav */
+        padding: 0.5rem; /* Smaller padding for mobile nav */
     }
 }
